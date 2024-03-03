@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .img-logo {
   height: 40px;
@@ -17,7 +18,6 @@
 .header li {
   color: grey;
   text-decoration: none;
-  
 }
 .header-rightpart {
   width: 70%;
@@ -31,19 +31,41 @@ ul {
   align-content: center;
 }
 
-ul li a{
-    
-    text-decoration: none;
-    
+ul li a {
+  text-decoration: none;
 }
-.joinUs-btn a{
-    border-radius: 30px ;
-    background-color: blue;
-    color:white;
-    padding: 15px;
+.joinUs-btn a {
+  border-radius: 30px;
+  background-color: rgb(82, 82, 194);
+  color: white;
+  padding: 15px;
 }
-.body1{
-    background-color: red;
-    width: 100%;
-    height: 100%;
+.hero-section {
+  position: relative;
+  height: 100vh;
+}
+
+.text-over-image {
+  color: white;
+  position: absolute;
+  top: 50%;
+  font-size: xxx-large;
+  text-align: center;
+}
+.foundation-section {
+  margin-top: 350px;
+  height: 80vh;
+  width: 100%;
+  color: blue;
+}
+.foundation-title {
+  height: 20%;
+}
+.foundation-title h1 {
+  font-size: xx-large;
+  color: black;
+  text-align: center;
+}
+.foundation-info {
+  height: 80%;
 }
