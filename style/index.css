@@ -90,10 +90,20 @@ ul li a {
   flex-direction: column;
   width: 17%;
   text-align: justify;
- 
-}
-.found-info-img {
-  background-color: red;
-  height: 20%;
 }
 
+.dark-blue:hover {
+  background-color: rgb(206, 206, 253);
+}
+.blue:hover {
+  background-color: rgb(207, 226, 255);
+}
+.light-blue:hover {
+  background-color: rgb(210, 210, 248);
+}
+.green:hover{
+  background-color: rgb(214, 250, 214);
+}
+.pink:hover{
+  background-color: rgb(252, 208, 215);
+}
