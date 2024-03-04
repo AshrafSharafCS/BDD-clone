@@ -77,20 +77,23 @@ ul li a {
 }
 .found-info {
   display: flex;
+  position: relative;
+  display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
-  align-items: center;
+  justify-content: space-evenly;
   border-radius: 7px;
-  gap:10px;
   height: 80%;
   max-width: 400px;
   min-width: 200px;
   background-color: white;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  
+  width: 17%;
+  text-align: justify;
+ 
 }
-.found-info img{
-    margin-top: 20px;
+.found-info-img {
+  background-color: red;
+  height: 20%;
 }
+
